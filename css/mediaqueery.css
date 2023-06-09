@@ -1,0 +1,481 @@
+@media screen and (min-width : 750px ) and (max-width: 1000px){
+
+    .container{
+        width: 90%;
+        margin: auto;
+    }
+    /*======= End Home =======*/
+    
+    /*======= Start About =======*/
+    .about {
+        padding: 70px 0px;
+        width: 95%;
+        margin: auto;
+    }
+    .about .about-img{
+        width: 50%;
+        margin: auto;
+        border: none;
+
+    }
+    
+    .about .about-img .my-pic{
+        transform: translate(0px,0px);
+    }
+
+    .about .about-contant{
+        float: left;
+        width: 50%;
+        padding-left: 25px;
+        
+    }
+    .about .about-contant .caption h2{
+        padding-left: 10px;
+    }
+    .about .about-contant .info{
+        padding: 10px 0px;
+    }
+    .about .about-contant .info ul li{
+        font-size: 16px;
+    }
+
+    .about .about-contant .info a{
+        padding: 13px;
+        font-size: 10px;
+    }
+
+    /*======= End About =======*/
+    /*======= Start Services =======*/
+    
+    .service h2 , .portfolio h2 , .testimonial h2 , .ourblog h2 ,.contact h2{
+        font-size: 30px;
+    }
+    .lines .long{
+        width: 150px;
+        margin: auto;
+        height: 0.5px;
+        margin-top: 5px;
+    }
+    .lines .short{
+        width: 75px;
+        margin: auto;
+        height: 0.5px;
+        margin-top: 5px;
+    }
+    .service .servive-items{
+        margin-top: 40px;
+    }
+    .service .servive-items .s-item{
+        transition: all 1s;
+        padding: 40px 20px;
+        width: 50%;
+        float: left;
+        transition: all .5s;
+    }
+    .service .servive-items .s-item img{
+        width: 10%;
+    }
+    .service .servive-items .s-item:hover img{
+        transform: scale(1.1);
+    }
+    .service h3{
+        font-size: 20px;
+        padding: 15px 0px;
+    }
+    .service p{
+        font-size: 16px;
+        padding: 5px 0px;
+        line-height: 25px;
+    }
+    /*======= End Services =======*/
+    
+    /*======= Start Portfolio =======*/
+    .portfolio {
+        width: 100%;
+    } 
+    .portfolio .filters{
+        margin: 40px 0px;
+    }
+    .portfolio .filters a{
+        padding-right: 10px;
+        font-size: 18px;
+    }
+    .portfolio  .port-items{
+        padding: 0px;
+    }
+    .portfolio  .port-items .port-item{
+        width:50%;
+    }
+    /*****************************/
+    .numbers .numbers-item img{
+        width: 20%;
+    }
+    .numbers .numbers-item{
+        float: left;
+        width: 25%;
+        padding: 25px 0px;
+    }
+    .numbers .numbers-item h2{
+        font-size: 25;
+        margin: 10px 0px;
+    }
+    .numbers .numbers-item p{
+        font-size: 16;
+        margin: 10px 0px; 
+    }
+/****************************************/
+    .testimonial .feed-contant{
+        margin-top: 40px;
+        width: 100%;
+        padding: 40px;
+    }
+    /*************************/
+    .ourblog .container{
+        width: 100%; /**/
+    }
+    .ourblog .blogs{
+        
+        margin: 30px auto;
+    }
+    .ourblog .blogs .blog{
+        float: left;
+        width: 33.333%;
+        margin: 25px 0px;
+        text-align: left;
+    }
+    .ourblog .blogs .blog .container{
+        width: 90%;
+    }
+    .ourblog .blogs .blog  img{
+        width: 100%;
+    }
+    .ourblog .blogs .blog  .blog-contant{
+        padding: 10px;
+    }
+    .ourblog .blogs .blog  .blog-contant h3{
+        font-size: 20px;
+        padding: 3px;
+    }
+    .ourblog .blogs .blog  .blog-contant h4{
+        font-size: 18px;
+        padding: 3px;
+    }
+    .ourblog .blogs .blog  .blog-contant p{
+        font-size: 18px;
+        padding: 3px;
+        line-height: 1.5;
+    }
+    /***********************************/
+    .contact{
+        width: 95%;
+        margin: auto;
+    }
+    .contact .container{
+        width: 100%;
+    }
+    form{
+        margin-top: 20px;
+        padding: 30px 10px;
+    }
+    form input ,form textarea{
+        padding: 12px;
+        margin: 10px 0px;
+        width: 100%;
+    }
+    .personal-data {
+        float: left;
+        width: 50%;
+        
+    }
+    .personal-data input{
+        width: 95%;
+        margin-right: auto;
+    }
+    .contact  form button{
+        padding: 12px;
+        font-size: 16px;
+    }
+
+    /****************************/
+    .footer{
+        padding: 50px;
+    }
+    .footer .footer-icon{
+        margin: 20px;
+    }
+    .footer .footer-icon  a{
+        padding: 5px;
+        font-size: 25px;  
+    }
+}
+/****************************************************************
+=================Media small===================================
+*****************************************************************/
+@media screen and (max-width : 750px){
+    .container{
+        width: 95%;
+        margin: auto;
+    }
+    .home ul{
+        display: none;
+    }
+    .home .home-caption h3{
+
+        font-size: 18px;
+    }
+    .home .home-caption h4{
+        font-size: 20px;
+    }
+    .home .home-caption h1{
+        font-size: 40px;
+    }
+    /*======= End Home =======*/
+    
+    /*======= Start About =======*/
+    .about {
+        padding: 70px 0px;
+        width: 80%;
+        margin: auto;
+    }
+    .about .about-img{
+        width: 100%;
+        margin: auto;
+        border: none;
+        margin-bottom: 20px;
+    }
+    
+    .about .about-img .my-pic{
+        transform: translate(0px,0px);
+    }
+
+    .about .about-contant{
+        float: left;
+        width: 100%;
+        padding-left: 0px;
+        
+    }
+    .about .about-contant .caption h2{
+        padding-left: 10px;
+    }
+    .about .about-contant .info{
+        padding: 10px 0px;
+    }
+    .about .about-contant .info ul li{
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .about .about-contant .info a{
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    /*======= End About =======*/
+    /*======= Start Services =======*/
+    
+    .service h2 , .portfolio h2 , .testimonial h2 , .ourblog h2 ,.contact h2{
+        font-size: 30px;
+    }
+
+    .service .servive-items{
+        margin-top: 30px;
+    }
+    .service .servive-items .s-item{
+        padding: 40px 20px;
+        width: 100%;
+        transition: all .5s;
+    }
+    .service .servive-items .s-item img{
+        width: 10%;
+    }
+    .service .servive-items .s-item:hover img{
+        transform: scale(1.1);
+    }
+    .service h3{
+        font-size: 20px;
+        padding: 15px 0px;
+    }
+    .service p{
+        font-size: 16px;
+        padding: 5px 0px;
+        line-height: 25px;
+    }
+    /*======= End Services =======*/
+    
+    /*======= Start Portfolio =======*/
+    .portfolio {
+        width: 100%;
+    } 
+    .portfolio .filters{
+        margin: 40px 0px;
+    }
+    .portfolio .filters a{
+        padding-right: 10px;
+        font-size: 18px;
+    }
+    .portfolio  .port-items{
+        padding: 0px 10px;
+    }
+    .portfolio  .port-items .port-item{
+        width: 100%;
+    }
+    /*****************************/
+    .numbers .numbers-item img{
+        width: 7%;
+    }
+    .numbers .numbers-item{
+        float: left;
+        width: 100%;
+        padding: 25px 0px;
+    }
+    .numbers .numbers-item h2{
+        font-size: 25;
+        margin: 10px 0px;
+    }
+    .numbers .numbers-item p{
+        font-size: 16;
+        margin: 10px 0px; 
+    }
+/****************************************/
+.testimonial .feed-contant{
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 3px;
+    background-color: #F1F1F1;
+    width: 90%;
+    position: relative;
+    overflow: hidden;
+    padding: 30px;
+}
+
+
+.testimonial .feed-contant .axe-back{
+    position: absolute;
+    width: 280px;
+    height: 180;
+    top: -55px;
+    right: 0;
+    left: -125px;
+    bottom: 0;
+    background-color: #ff305b;
+    transform: rotate(-45deg);
+}
+.testimonial .feed-contant .test-pic{
+    float:none;
+    width: 35%;
+    margin:   auto;
+    text-align: center;
+    padding: 10px;
+    overflow: hidden;
+    position: relative;
+
+}
+.testimonial .feed-contant .test-pic img{
+    width: 100%;
+    border-radius: 50%;
+    margin:  auto;
+}
+.testimonial .feed-contant .test-caption{
+    float: none;
+    width: 100%;
+    text-align: left;
+    padding: 0px 5px;
+}
+
+.testimonial .feed-contant .test-caption h3{
+    font-size: 25px;
+    padding: 10px 0px;
+}
+.testimonial .feed-contant .test-caption p{
+    font-size: 18px;
+    padding: 5px 0px;
+    line-height: 25px;
+}
+.testimonial .feed-contant .test-caption a{
+    padding-right: 10px;
+    text-decoration: none;
+    color: #333333;
+    font-size: 16px;
+}
+
+
+    /*************************/
+    .ourblog .container{
+        width: 95%; /**/
+    }
+    .ourblog .blogs{
+        
+        margin: 30px auto;
+    }
+    .ourblog .blogs .blog{
+        float: left;
+        width: 100%;
+        margin: 25px 0px;
+        text-align: left;
+    }
+    .ourblog .blogs .blog .container{
+        width: 90%;
+    }
+    .ourblog .blogs .blog  img{
+        width: 100%;
+    }
+    .ourblog .blogs .blog  .blog-contant{
+        padding: 10px;
+    }
+    .ourblog .blogs .blog  .blog-contant h3{
+        font-size: 20px;
+        padding: 3px;
+    }
+    .ourblog .blogs .blog  .blog-contant h4{
+        font-size: 18px;
+        padding: 3px;
+    }
+    .ourblog .blogs .blog  .blog-contant p{
+        font-size: 18px;
+        padding: 3px;
+        line-height: 1.5;
+    }
+    /***********************************/
+    .contact{
+        width: 95%;
+        margin: auto;
+    }
+    .contact .container{
+        width: 100%;
+    }
+    form{
+        margin-top: 20px;
+        padding: 30px 10px;
+    }
+    form input ,form textarea{
+        padding: 12px;
+        margin: 10px 0px;
+        width: 100%;
+    }
+    .personal-data {
+        float: left;
+        width: 100%;
+        
+    }
+    .personal-data input{
+        width: 100%;
+        margin-right: auto;
+    }
+    .contact  form button{
+        padding: 12px;
+        font-size: 16px;
+    }
+
+    /****************************/
+    .footer{
+        padding: 50px;
+    }
+    .footer .footer-icon{
+        margin: 20px;
+    }
+    .footer .footer-icon  a{
+        padding: 5px;
+        font-size: 25px;  
+    }
+}
+
